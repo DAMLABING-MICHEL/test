@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>resolution d'une equation de second degre avec javasript</title>
+        <link rel="stylesheet" href="poly.css">
+    </head>
+    <body>
+        <div class="container">
+            <form name="nameform">
+                <div class="div1">
+                    <div class="div3">
+                        <p>
+                        vous devez entrer une équation de la forme:<br><b>ax^2+bx+c</b> (pas d'espace entre les caractères).<br>
+                        <u><b>NB:</b></u> a,b,c sont des nombres réels, (a#0) <br> x est une variable inconnue.
+                        </p>
+                    </div>
+                    <div class="contentinput">
+                        <input type="text" placeholder="entrer une equation de la forme ax^2+bx+c" id="equation">
+                    </div>
+                    <div class="div5" id="erreur"><span id = "affiche"></span></div>
+                        <div class="contentsol">
+                            <input type="submit" value="resoudre" id="solve">
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="a" id="vala"></div>
+                    <div class="b" id="valb"></div>
+                    <div class="c" id="valc"></div>
+                    <div class=resultat id="solution"></div>
+                </div>
+            </form>
+        </div>
+        <script src="copiepoly.js"></script>
+    </body>
+</html>
