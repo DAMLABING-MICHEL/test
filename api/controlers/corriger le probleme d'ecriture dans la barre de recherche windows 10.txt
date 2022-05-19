@@ -1,0 +1,1 @@
+commande à inserer: C:\Windows\system32\ctfmon.exe
